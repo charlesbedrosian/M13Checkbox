@@ -353,7 +353,7 @@
                                                       0,
                                                       0,
                                                       self.frame.size.width - ([self heightForCheckbox] * (kBoxSize + kCheckHorizontalExtention + kCheckBoxSpacing)),
-                                                      self.frame.size.height));
+                                                      self.frame.size.height + self.titleLabelYoffset));
     } else {
         checkView.frame = CGRectIntegral(CGRectMake(
                                                     0,
@@ -364,7 +364,7 @@
                                                       checkView.frame.size.width + ([self heightForCheckbox] * kCheckBoxSpacing),
                                                       0,
                                                       self.frame.size.width - ([self heightForCheckbox] * (kBoxSize + kCheckHorizontalExtention + kCheckBoxSpacing)),
-                                                      self.frame.size.height));
+                                                      self.frame.size.height + self.titleLabelYoffset));
     }
 }
 
