@@ -184,4 +184,6 @@ typedef enum {
  */
 @property (nonatomic, assign) CGFloat radius UI_APPEARANCE_SELECTOR; 
 
+@property (nonatomic, assign) CGFloat titleLabelYoffset;
+
 @end
